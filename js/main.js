@@ -1,10 +1,9 @@
 import * as THREE from 'three';
-import ColladaLoader from './ColladaLoader.js';
 import {TweenMax, Expo} from "gsap";
 var OrbitControls = require('three-orbit-controls')(THREE);
 
 
-window.THREE=THREE;
+window.THREE=THREE;  
 var scene = new THREE.Scene();
 var pieces=[];
 window.scene=scene;
